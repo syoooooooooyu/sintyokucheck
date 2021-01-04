@@ -1,0 +1,23 @@
+name: sintyokucheck
+main: syouyu\sintyoku\Main
+api: [3.0.0,4.0.0]
+version: 1.0.0
+author: syouyu
+
+commands:
+  damedesu:
+    description: 進捗だめです！
+    usage: /damedesu
+    permission: damedesu
+  dasimasita:
+    description: 進捗出しました！
+    usage: /dasimasita
+    permission: dasimasita
+
+permissions:
+  damedesu:
+    description: 進捗だめです!
+    default: false
+  dasimasita:
+    description: 進捗出しました！
+    default: false
